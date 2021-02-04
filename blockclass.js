@@ -26,7 +26,6 @@ else{
     push()
     this.visibility= this.visibility-5;
     tint(255,this.visibility);
-    image(this.body,this.body.position.x,this.body.position.y,this.width,this.height);
     pop() 
 }
 
