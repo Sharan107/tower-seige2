@@ -65,6 +65,9 @@ function draw() {
   ground.display();
   block1.display();
   block2.display();
+  strokeWeight(2);
+  stroke("lightBlue");
+  fill("blue");
   box1.display();
   box2.display();
   box3.display();
@@ -72,24 +75,50 @@ function draw() {
   box5.display();
   box6.display();
   box7.display();
+
+  strokeWeight(2);
+  stroke("lightPink");
+  fill("pink");
   box8.display();
   box9.display();
   box10.display();
   box11.display();
   box12.display();
+
+  strokeWeight(2);
+  stroke("lightYellow");
+  fill("yellow");
   box13.display();
   box14.display();
   box15.display();
+
+  strokeWeight(2);
+  stroke("orange");
+  fill("red");
   box16.display();
+
+  strokeWeight(2);
+  stroke("lightBlue");
+  fill("blue");
   box17.display();
   box18.display();
   box19.display();
   box20.display();
   box21.display();
+
+  strokeWeight(2);
+  stroke("lightPink");
+  fill("pink");
   box22.display();
   box23.display();
   box24.display();
+
+  strokeWeight(2);
+  stroke("lightYellow");
+  fill("yellow");
+  box13.display();
   box25.display();
+
 
   textSize(20)
   text("Drag The Hexagonal Stone And Release It, To Launch It Towards The Blacks",300,50);
