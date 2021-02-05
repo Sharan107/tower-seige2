@@ -7,7 +7,7 @@ friction:0.5
 this.body=Bodies.rectangle(x,y,width,height,options);
 this.width=width;
 this.height=height;
-this.visibility=255;
+//this.visibility=255;
 World.add(world,this.body);
 }
 
@@ -24,8 +24,8 @@ if(this.body.speed<3){
 else{
     World.remove(world,this.body);
     push()
-    this.visibility= this.visibility-5;
-    tint(255,this.visibility);
+   // this.visibility= this.visibility-5;
+ //   tint(255,this.visibility);
     pop() 
 }
 
